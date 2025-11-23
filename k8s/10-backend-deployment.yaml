@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/marionqueen/module6-part3-backend:4829d4a57688f188c6e5aa8bfea30f04df97a258
+          image: ghcr.io/marionqueen/module6-part3-backend:67676e4fad38779c3c797d7eacef2058b6b0e6eb
           imagePullPolicy: Always
           ports:
             - name: http
